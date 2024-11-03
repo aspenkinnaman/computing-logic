@@ -1,0 +1,80 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="12k5lCW-Lnp0YzWp2Blp">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J1AzLOX-pyBzpqvooMcs-1" target="J1AzLOX-pyBzpqvooMcs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J1AzLOX-pyBzpqvooMcs-3" target="J1AzLOX-pyBzpqvooMcs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-3" value="input customerName" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="255" y="60" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J1AzLOX-pyBzpqvooMcs-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="731" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-6" value="input numberBathrooms" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="460" y="60" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J1AzLOX-pyBzpqvooMcs-8" target="J1AzLOX-pyBzpqvooMcs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-8" value="input numberRooms" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J1AzLOX-pyBzpqvooMcs-10" target="J1AzLOX-pyBzpqvooMcs-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-10" value="totalCost = 40 + (15 * numberBathrooms) + (10 * numberRooms)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="170" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J1AzLOX-pyBzpqvooMcs-12" target="J1AzLOX-pyBzpqvooMcs-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-12" value="print customerName" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-14" value="print numberBathrooms and numberBathrooms * 15" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J1AzLOX-pyBzpqvooMcs-18" target="J1AzLOX-pyBzpqvooMcs-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J1AzLOX-pyBzpqvooMcs-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-18" value="print numberRooms, numberRooms * 10" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="390" y="290" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J1AzLOX-pyBzpqvooMcs-20" target="J1AzLOX-pyBzpqvooMcs-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-20" value="print totalCost" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="620" y="380" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-23" value="display closing message" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-25" value="stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1AzLOX-pyBzpqvooMcs-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J1AzLOX-pyBzpqvooMcs-23" target="J1AzLOX-pyBzpqvooMcs-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
